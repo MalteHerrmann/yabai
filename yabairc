@@ -10,3 +10,4 @@ yabai -m space --padding abs:10:10:10:10
 
 # Add 10px gap between windows
 yabai -m space --gap abs:10
+
