@@ -11,3 +11,8 @@ yabai -m space --padding abs:10:10:10:10
 # Add 10px gap between windows
 yabai -m space --gap abs:10
 
+# ------------------------------
+# Float
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^1Password$" manage=off
+
